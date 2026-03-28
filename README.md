@@ -1,16 +1,53 @@
-# React + Vite
+# ⚛️ React Hooks Masterclass - Premium Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-end, interactive educational platform designed to master React Hooks through immersive demonstrations and technical precision.
 
-Currently, two official plugins are available:
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🎯 Interactive Hook Showcase**: Live demonstrations of `useState`, `useEffect`, `useRef`, `useMemo`, and `useContext`.
+- **🌐 Global Multi-language Support**: Real-time switching between **French (FR)**, **English (EN)**, and **Swahili (SW)**.
+- **🌗 Cinematic Dark/Light Mode**: Premium glassmorphism UI with smooth theme transitions.
+- **🧭 Hidden Drawer Navigation**: Sidebar-driven navigation for Documentation, Profile, and Settings.
+- **🧠 Technical Insights**: Detailed "Specificity" sections for each hook to understand their internal mechanics.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Core**: React 19 (Hooks, Context API)
+- **Bundler**: Vite v8
+- **Styling**: Tailwind CSS v4.0 (Custom Theme, Layers)
+- **Typography**: Google Fonts (Outfit, Inter)
+- **Icons**: Lucide-inspired SVG components
+
+## 🚀 Getting Started
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/merveillebalume2-boop/exercices-sur-le-hooks.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+## 📂 Project Structure
+
+- `src/components`: UI modules and Hook demonstration cards.
+- `src/context`: Global application state management (Theme, Lang, Nav).
+- `src/translations.js`: Localization dictionary for multi-language support.
+- `src/index.css`: Tailwind v4 layer configuration and custom design system.
+
+---
+
+Built with ❤️ by **merveille balume 2-lloop**
