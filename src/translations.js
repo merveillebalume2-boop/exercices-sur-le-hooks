@@ -12,9 +12,9 @@ export const translations = {
     documentation: "Documentation",
     profile: "Profil",
     parameters: "Paramètres",
-    docsText: "Explorez les détails techniques de React v19.",
-    profileText: "Gérez vos préférences utilisateur ici.",
-    settingsText: "Configurez l'application selon vos besoins.",
+    docsText: "Les Hooks React (v19.x) permettent d'utiliser l'état et d'autres fonctionnalités de React sans écrire de classe. Ils offrent une meilleure organisation du code et une réutilisation simplifiée de la logique métier. Ce studio explore la gestion d'état, les effets de bord et l'optimisation des performances.",
+    profileText: "Gérez vos préférences utilisateur ici. Votre profil est synchronisé avec l'état global de l'application.",
+    settingsText: "Configurez l'interface, les animations et les préférences de langue pour une expérience optimale.",
     useState: {
       name: "useState",
       desc: "Gérez l'état local simplement.",
@@ -54,9 +54,9 @@ export const translations = {
     documentation: "Documentation",
     profile: "Profile",
     parameters: "Settings",
-    docsText: "Explore the technical details of React v19.",
-    profileText: "Manage your user preferences here.",
-    settingsText: "Configure the application to your needs.",
+    docsText: "React Hooks (v19.x) allow you to use state and other React features without writing a class. They provide cleaner code organization and easier reuse of business logic. This studio explores state management, side effects, and performance optimization.",
+    profileText: "Manage your user preferences here. Your profile is synchronized with the global application state.",
+    settingsText: "Configure the UI, animations, and language preferences for an optimal experience.",
     useState: {
       name: "useState",
       desc: "Manage local state simply.",
@@ -96,9 +96,9 @@ export const translations = {
     documentation: "Nyaraka",
     profile: "Wasifu",
     parameters: "Mipangilio",
-    docsText: "Chunguza maelezo ya kiufundi ya React v19.",
-    profileText: "Simamia mapendeleo yako ya mtumiaji hapa.",
-    settingsText: "Sanidi programu kulingana na mahitaji yako.",
+    docsText: "React Hooks (v19.x) hukuruhusu kutumia hali (state) na vipengele vingine vya React bila kuandika darasa (class). Zinatoa mpangilio bora wa msimbo (code) na urahisi wa kutumia tena mantiki ya biashara. Studio hii inachunguza usimamizi wa hali, athari za kando (side effects), na uboreshaji wa utendaji.",
+    profileText: "Simamia mapendeleo yako ya mtumiaji hapa. Wasifu wako unasawazishwa na hali ya jumla ya programu.",
+    settingsText: "Sanidi kiolesura (UI), uhuishaji (animations), na mapendeleo ya lugha kwa matokeo bora.",
     useState: {
       name: "useState",
       desc: "Simamia hali ya ndani kwa urahisi.",
@@ -107,12 +107,12 @@ export const translations = {
     useEffect: {
       name: "useEffect",
       desc: "Sawazisha na mifumo ya nje.",
-      spec: "Mara nyingi huhitaji kazi ya kusafisha."
+      spec: "Mara nyingi huhitaji kazi ya kusafisha (cleanup)."
     },
     useRef: {
       name: "useRef",
       desc: "Fikia vipengele vya DOM moja kwa moja.",
-      spec: "Haijawahi kuanzisha onyesho jipya."
+      spec: "Haijawahi kuanzisha onyesho jipya (re-render)."
     },
     useMemo: {
       name: "useMemo",
@@ -122,7 +122,7 @@ export const translations = {
     useContext: {
       name: "useContext",
       desc: "Shiriki hali ya jumla.",
-      spec: "Hali huenezwa bila kupitia props."
+      spec: "Hali huenezwa bila kupitia props (prop-drilling)."
     }
   }
 };
